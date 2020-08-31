@@ -1,4 +1,6 @@
 library(keras)
+use_condaenv("r-reticulate", required = FALSE)
+library(reticulate)
 library(tfhub)
 library(tfds)
 library(tfdatasets)
